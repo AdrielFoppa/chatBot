@@ -1,0 +1,28 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "descricao",
+    "patterns":["O que é o PIPE","fale sobre o programa PIPE"],
+    "responses": ["O PIPE-FAPESP apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo.","O PIPE-FAPESP promove a condução de investigações científicas e/ou tecnológicas em micro, pequenas e médias empresas situadas no Estado de São Paulo."]
+  },
+  {"tag": "objetivos",
+   "patterns": ["objetivos","função"],
+   "responses": ["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+  },
+  {"tag": "etapas",
+   "patterns": ["etapas","fases"],
+   "responses":["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000);\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  {"tag":"dedicacao",
+   "patterns": ["dedicação exclusiva", "tempo integral ao PIPE"],
+   "responses":["Caso o pesquisador principal seja pago pela empresa e não receba bolsa da FAPESP, é exigida a dedicação mínima de 24 horas semanais ao projeto na empresa. Em casos excepcionais, em que a empresa demonstra não poder arcar com o salário do Pesquisador Responsável, a FAPESP pode analisar solicitação de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar Bolsa PE, é necessária a dedicação mínima de 40 horas semanais ao projeto.","No caso de o pesquisador principal ser pago pela empresa sem receber a bolsa da FAPESP, será necessária uma dedicação mínima de 24 horas semanais ao projeto realizado na empresa. Em circunstâncias excepcionais, em que a empresa comprove não ter condições de custear o salário do Pesquisador Responsável, a FAPESP poderá considerar o pedido de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar a Bolsa PE, a dedicação mínima ao projeto passará a ser de 40 horas semanais."]
+  }
+
+]
+}
